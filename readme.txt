@@ -1,4 +1,4 @@
-Local ubuntu deer orchin beldeh
+Prepare environment for ubuntu
 
     install aws cli 
         sudo apt-get install python-dev     
@@ -26,8 +26,7 @@ Local ubuntu deer orchin beldeh
 Run and test on local
     ruby lambda_function.rb
 
-Deploy to AWS
-    
+Deploy to AWS    
     Create ruby2.5 lambda function and copy the source codes
     Lambda function must run with EC2ReadOnly, CloudwatchFull permission role 
     Create cloudwatch event wich invokes the function everyday
